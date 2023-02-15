@@ -1,37 +1,89 @@
+/* Set default styles for the entire page */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 30px 18px;
-    background: linear-gradient(to bottom, #a6a5a5 0%, #212121 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 0;
+    background-color: #d7e0ff;
+    color: #444444;
     }
 
-h1 {
-    color: white;
+/* Style the header */
+header {
+    background-color: #afa5e0;
+    color: #FFFFFF;
+    padding: 20px;
+    }
+
+/* Center the header text */
+header h1 {
     text-align: center;
-    font-size: 48px;
-    text-shadow: 2px 2px #000;
-    letter-spacing: 4px;
-    margin: 1vw 0;
+    }
+header h2 {
+    text-align: center;
     }
 
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fcf4f4;
+    box-shadow: 0px 0px 10px #CCCCCC;
+    }
+
+/* Style the text */
 p {
-    font-size: 22px;
     line-height: 1.5;
-    color: white;
-    text-align: center;
-    margin: 20px 0;
-    text-shadow: 2px 2px #000;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
     }
 
-h2 {
-    font-size: 32px;
-    margin: 40px 0 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: white;
-    text-shadow: 2px 2px #000;
+/* Style the links */
+a {
+    color: #e8d2d2;
+    text-decoration: none;
+    }
+
+a:hover {
+    text-decoration: underline;
+    }
+
+/* Style the button */
+button {
+    background-color: #e3cece;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 450;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+button:hover {
+    background-color: #fcf4f4;
+    }
+
+/* style the div sendEmail */
+div.sendEmail {
+    color: black;
+    line-height: 2;
+    font-size: 1.2rem;
+    font-weight: 450;
+    padding: 10px 0;
+    }
+.sendEmail a {
+    color: #f5b3b3;
+    font-weight: 480;
+    }
+/* when hovering a */
+.sendEmail a:hover {
+    color: #9f8ff5;
+    font-weight: 540;
+    }
+
+footer {
+    background-color: #f9e3ff;
+    color: black;
+    padding: 20px;
     }
