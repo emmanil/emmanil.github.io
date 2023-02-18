@@ -1,117 +1,105 @@
 /* Set default styles for the entire page */
-body {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #d7e0ff;
     color: #444444;
     }
-
 /* Style the header */
-header {
+header{
     background-color: #afa5e0;
     color: #FFFFFF;
     padding: 20px;
     }
-
 /* Center the header text */
-header h1 {
+header h1{
     text-align: center;
     }
-header h2 {
+header h2{
     text-align: center;
     }
-
 /* Style the main content section */
-main {
-    max-width: 880px;
-    margin: 0 auto;
+main{
+    max-width: 740px;
+    margin: 11px auto;
     padding: 40px 30px 80px;
     background-color: #fcf4f4;
     box-shadow: 0px 0px 10px #CCCCCC;
     }
-
+label{
+    font-size: 14px;
+    }
 /* Style the text */
-p {
+p{
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
     }
-
 /* Style the links */
-a {
+a{
+    font-size: 14px;
     color: #e8d2d2;
     text-decoration: none;
     }
-
 button,
-nav {
+nav{
     display: inline-block;
     justify-content: space-between;
     padding: 0 20px;
     }
-
 /* style the a that is inside nav so it looks like button*/
-nav a {
+nav a{
     background-color: #e3cece;
     color: black;
     border: none;
     padding: 10px 20px;
     font-weight: 450;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    cursor: pointer;
-
-
-    }
-
-a:hover {
-    text-decoration: underline;
-    }
-
-/* Style the button */
-button {
-    background-color: #e3cece;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    font-weight: 450;
-    font-size: 1.1rem;
     border-radius: 5px;
     cursor: pointer;
     }
-
-button:hover {
+a:hover{
     background-color: #fcf4f4;
     }
-
+/* Style the button */
+button{
+    background-color: #e3cece;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 450;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+button:hover{
+    background-color: #fcf4f4;
+    }
 /* style the div sendEmail */
-div.sendEmail {
+div.sendEmail{
     color: black;
     line-height: 2;
     font-size: 1.2rem;
     font-weight: 450;
     padding: 10px 0;
     }
-.sendEmail a {
+.sendEmail a{
     color: #f5b3b3;
     font-weight: 480;
     }
 /* when hovering a */
-.sendEmail a:hover {
+.sendEmail a:hover{
     color: #9f8ff5;
     font-weight: 540;
     }
-
-footer {
+footer{
     background-color: #f9e3ff;
     color: black;
     padding: 20px;
     }
-
-.big-img {
+.big-img{
     margin: 30px 0;
-    width: 880px;
+    width: 740px;
     height: auto;
     }
 
