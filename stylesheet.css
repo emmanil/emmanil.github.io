@@ -24,9 +24,9 @@ header h2 {
 
 /* Style the main content section */
 main {
-    max-width: 800px;
+    max-width: 880px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 30px 80px;
     background-color: #fcf4f4;
     box-shadow: 0px 0px 10px #CCCCCC;
     }
@@ -42,6 +42,27 @@ p {
 a {
     color: #e8d2d2;
     text-decoration: none;
+    }
+
+button,
+nav {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 20px;
+    }
+
+/* style the a that is inside nav so it looks like button*/
+nav a {
+    background-color: #e3cece;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 450;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+
     }
 
 a:hover {
@@ -87,3 +108,10 @@ footer {
     color: black;
     padding: 20px;
     }
+
+.big-img {
+    margin: 30px 0;
+    width: 880px;
+    height: auto;
+    }
+
