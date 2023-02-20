@@ -41,6 +41,7 @@ a{
     font-size: 14px;
     color: #e8d2d2;
     text-decoration: none;
+    margin-right: 20px;
     }
 button,
 nav{
@@ -74,6 +75,8 @@ button{
     }
 button:hover{
     background-color: #fcf4f4;
+    color: #9f8ff5;
+    font-weight: 540;
     }
 /* style the div sendEmail */
 div.sendEmail{
@@ -83,12 +86,12 @@ div.sendEmail{
     font-weight: 450;
     padding: 10px 0;
     }
-.sendEmail a{
+a{
     color: #f5b3b3;
     font-weight: 480;
     }
 /* when hovering a */
-.sendEmail a:hover{
+a:hover{
     color: #9f8ff5;
     font-weight: 540;
     }
